@@ -1,4 +1,4 @@
-* {
+1 * {
 2   box-sizing: border-box;
 3 }
 4
@@ -30,6 +30,43 @@
 26 .nav-container {
 27   display: inline-block;
 28   position: absolute;
-29   top: 0;
-30   left: 0;
+29   top: 24px;
+30   left: 24px;
 31 }
+32
+
+33 .nav-container ul {
+34   list-style: none;
+35   margin: 0;
+36   padding: 0;
+37 }
+38
+
+39 .nav-container ul li {
+40   margin: 12px 0;
+41   font-size: 32px;
+42 }
+43
+
+44 .content-image {
+45   float: right;
+46   margin: 24px 0 0 24px;
+47 }
+48
+
+49 .inner-content {
+50   display: inline-block;
+51   max-width: 500px;
+52 }
+53
+
+54 .inner-content-left {
+55   background-color: #1bd900;
+56   float: left;
+57 }
+58
+
+59 .inner-content-right {
+60   background-color: #ed7f1a;
+61   float: right;
+62 }
