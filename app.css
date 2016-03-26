@@ -1,4 +1,35 @@
-body {
-background-color: #bada55;
-color: #333333;
-}
+* {
+2   box-sizing: border-box;
+3 }
+4
+
+5 .main-title {
+6   text-align: center;
+7   padding: 24px 0;
+8   color: #ffed00;
+9 }
+10
+
+11 .main-content {
+12   position: relative;
+13   background-color: #26abd2;
+14   width: 1200px;
+15   margin: 0 auto;
+16 }
+17
+
+18 .content {
+19   margin-left: 200px;
+20   max-width: 1000px;
+21   background-color: #15b43c;
+22   color: white;
+23   display: inline-block;
+24 }
+25
+
+26 .nav-container {
+27   display: inline-block;
+28   position: absolute;
+29   top: 0;
+30   left: 0;
+31 }
